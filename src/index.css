@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* ProductList.css */
+
+.input-wrapper {
+  position: relative;
+}
+
+.suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  z-index: 1;
+}
+
+.suggestions ul {
+  list-style: none;
+  padding: 0;
+}
+
+.suggestions li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.suggestions li:hover {
+  background-color: #f0f0f0;
+}
+
+.suggestions li.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+.input-wrapper textarea .highlight {
+  color: blue !important;
+}
+
+
+.selected-name {
+  color: red;
+}
+
+.profile-image {
+  width: 30px;
+  height: 30px;
+  background-color: #ccc;  
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin-right: 10px;
+}
